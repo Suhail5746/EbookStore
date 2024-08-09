@@ -1,0 +1,106 @@
+/* Ensure the body takes full height and applies a dark background color */
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Navbar styling */
+.navbar {
+  height: 60px; /* Adjust this to match your navbar height */
+  background-color: #1e1e1e; /* Adjust to match your design */
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+/* Adjust the main container to fill the remaining space below the navbar */
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 60px); /* Adjust 60px to match the height of your navbar */
+  width: 100%;
+  overflow: auto; /* Handle overflow */
+}
+
+/* Style for the contact container */
+.contact-container {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px; /* Add margin for better spacing */
+}
+
+/* Heading style */
+.contact-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+/* Form group styling */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Label styling */
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #bbbbbb;
+}
+
+/* Input and textarea styling */
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #333333;
+  border-radius: 4px;
+  background-color: #2c2c2c;
+  color: #ffffff;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #777777;
+}
+
+/* Textarea specific styling */
+.form-group textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+/* Button styling */
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #6200ea;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #3700b3;
+}
