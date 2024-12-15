@@ -11,9 +11,7 @@ function Banner() {
               <span className="text-pink-500">new everyday!!!</span>
             </h1>
             <p className="text-sm md:text-xl">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-              et totam. Tempora amet atque expedita, quae corrupti totam sed
-              pariatur corporis at veniam est voluptas animi!
+            At BookWorld, we are passionate about bringing the joy of reading to your fingertips. Whether you’re a bookworm searching for the latest bestsellers, a student hunting for academic resources, or someone looking for a thoughtful gift, our platform has something for everyone. With an extensive collection of books across genres, we ensure that you find the perfect read every time you visit.
             </p>
             <label className="input input-bordered flex items-center gap-2">
               <svg
